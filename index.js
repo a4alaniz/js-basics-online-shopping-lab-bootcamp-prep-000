@@ -13,12 +13,12 @@ function addToCart(item) {
   let min = 1
    let max = 100
    let random = Math.floor(Math.random() * (max - min)) + min
-  
+
     var objecto = {
       itemName: item,
       itemPrice: random
     }
-    
+
     cart.push(objecto)
     return `${cart[cart.length - 1].itemName} has been added to your cart.`
  }
