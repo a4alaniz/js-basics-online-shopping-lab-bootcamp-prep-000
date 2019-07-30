@@ -10,7 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+var item = {itemName: name};
+
+return `${item} has been added to your cart`;
 }
 
 function viewCart() {
@@ -20,7 +22,6 @@ function viewCart() {
 function total() {
   // write your code here
 }
-
 function removeFromCart(item) {
   // write your code here
 }
